@@ -20,7 +20,6 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <base target="_blank"></base>
       <Card style={{ position: "relative" }}>
         <Status />
         <Title />
